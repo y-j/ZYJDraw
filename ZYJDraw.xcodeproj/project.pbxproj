@@ -14,6 +14,10 @@
 		1F7DB4F01B1615D8007C56E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7DB4EF1B1615D8007C56E1 /* Images.xcassets */; };
 		1F7DB4F31B1615D8007C56E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7DB4F11B1615D8007C56E1 /* LaunchScreen.xib */; };
 		1F7DB4FF1B1615D8007C56E1 /* ZYJDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7DB4FE1B1615D8007C56E1 /* ZYJDrawTests.m */; };
+		1F7DB50A1B162826007C56E1 /* ZYJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7DB5091B162826007C56E1 /* ZYJView.m */; };
+		9A396E001B3CE3B1007BED13 /* UIImage+ZYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A396DFF1B3CE3B1007BED13 /* UIImage+ZYJ.m */; };
+		9A396E021B3CE4FB007BED13 /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A396E011B3CE4FB007BED13 /* colorWheel.png */; };
+		9A396E061B3CF6D7007BED13 /* utily.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A396E051B3CF6D7007BED13 /* utily.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		1F7DB4F81B1615D8007C56E1 /* ZYJDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYJDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7DB4FD1B1615D8007C56E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7DB4FE1B1615D8007C56E1 /* ZYJDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYJDrawTests.m; sourceTree = "<group>"; };
+		1F7DB5081B162826007C56E1 /* ZYJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJView.h; sourceTree = "<group>"; };
+		1F7DB5091B162826007C56E1 /* ZYJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJView.m; sourceTree = "<group>"; };
+		9A396DFE1B3CE3B1007BED13 /* UIImage+ZYJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYJ.h"; sourceTree = "<group>"; };
+		9A396DFF1B3CE3B1007BED13 /* UIImage+ZYJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYJ.m"; sourceTree = "<group>"; };
+		9A396E011B3CE4FB007BED13 /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorWheel.png; sourceTree = "<group>"; };
+		9A396E031B3CE7C9007BED13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A396E041B3CF6D7007BED13 /* utily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utily.h; sourceTree = "<group>"; };
+		9A396E051B3CF6D7007BED13 /* utily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utily.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,11 @@
 				1F7DB4EF1B1615D8007C56E1 /* Images.xcassets */,
 				1F7DB4F11B1615D8007C56E1 /* LaunchScreen.xib */,
 				1F7DB4E21B1615D8007C56E1 /* Supporting Files */,
+				1F7DB5081B162826007C56E1 /* ZYJView.h */,
+				1F7DB5091B162826007C56E1 /* ZYJView.m */,
+				9A396DFE1B3CE3B1007BED13 /* UIImage+ZYJ.h */,
+				9A396DFF1B3CE3B1007BED13 /* UIImage+ZYJ.m */,
+				9A396E031B3CE7C9007BED13 /* PrefixHeader.pch */,
 			);
 			path = ZYJDraw;
 			sourceTree = "<group>";
@@ -96,8 +113,11 @@
 		1F7DB4E21B1615D8007C56E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A396E011B3CE4FB007BED13 /* colorWheel.png */,
 				1F7DB4E31B1615D8007C56E1 /* Info.plist */,
 				1F7DB4E41B1615D8007C56E1 /* main.m */,
+				9A396E041B3CF6D7007BED13 /* utily.h */,
+				9A396E051B3CF6D7007BED13 /* utily.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7DB4EE1B1615D8007C56E1 /* Main.storyboard in Resources */,
+				9A396E021B3CE4FB007BED13 /* colorWheel.png in Resources */,
 				1F7DB4F31B1615D8007C56E1 /* LaunchScreen.xib in Resources */,
 				1F7DB4F01B1615D8007C56E1 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7DB50A1B162826007C56E1 /* ZYJView.m in Sources */,
 				1F7DB4EB1B1615D8007C56E1 /* ViewController.m in Sources */,
+				9A396E001B3CE3B1007BED13 /* UIImage+ZYJ.m in Sources */,
+				9A396E061B3CF6D7007BED13 /* utily.m in Sources */,
 				1F7DB4E81B1615D8007C56E1 /* AppDelegate.m in Sources */,
 				1F7DB4E51B1615D8007C56E1 /* main.m in Sources */,
 			);
@@ -288,6 +312,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Volumes/YJ/lunwen/ZYJDraw/ZYJDraw/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -331,6 +356,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Volumes/YJ/lunwen/ZYJDraw/ZYJDraw/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -350,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYJDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYJDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +446,7 @@
 				1F7DB5041B1615D8007C56E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F7DB5051B1615D8007C56E1 /* Build configuration list for PBXNativeTarget "ZYJDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				1F7DB5071B1615D8007C56E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

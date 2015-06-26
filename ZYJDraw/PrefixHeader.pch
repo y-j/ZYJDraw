@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  ZYJDraw
+//
+//  Created by 陈令令 on 15/6/26.
+//  Copyright (c) 2015年 zhang. All rights reserved.
+//
+
+#ifndef ZYJDraw_PrefixHeader_pch
+#define ZYJDraw_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define RGBCOLOR(r,g,b,a)          [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+#define screenW [[UIScreen mainScreen] bounds].size.width
+#define screenH [[UIScreen mainScreen] bounds].size.height
+#define marginLift screenW/8.0
+#define marginBottom 35
+#define btnH 45
+
+#import "utily.h"
+
+#endif
