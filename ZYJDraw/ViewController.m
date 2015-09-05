@@ -4,7 +4,7 @@
 //
 //  Created by zhang on 15/5/27.
 //  Copyright (c) 2015年 zhang. All rights reserved.
-//
+//  view
 
 #import "ViewController.h"
 #import "ZYJView.h"
