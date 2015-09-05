@@ -1,3 +1,3 @@
 # ZYJDraw
-init
+==========
 begin
