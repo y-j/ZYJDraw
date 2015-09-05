@@ -1,0 +1,3 @@
+# ZYJDraw
+init
+begin
